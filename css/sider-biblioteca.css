@@ -1,59 +1,60 @@
-.sider_biblioteca {
+.biblioteca {
   background: var(--cor-background-sider);
   border-radius: 8px;
   margin: 20px 0;
-  padding: 16px 10px;
+  padding: 16px;
 }
-.sider_biblioteca ul {
+.biblioteca-content {
   display: flex;
-  place-content: space-between;
+  justify-content: space-between;
 }
-.biblioteca-list a {
+.biblioteca-content button {
   display: flex;
-  color: var(--cor-text-span);
-  font-family: "DM Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.875rem;
   align-items: center;
 }
-.biblioteca-list a:hover {
-  color: var(--cor-text-span-active);
-}
 
-.biblioteca a img {
+.biblioteca-button img {
   margin-right: 8px;
 }
-.biblioteca_play {
+.biblioteca-button {
+  background: var(--cor-background-sider);
+}
+.section-playlist {
   background: var(--cor-background-secundaria);
-  color: var(--cor-titulo);
-  padding: 16px;
-  margin-top: 20px;
   border-radius: 8px;
 }
-.biblioteca_play h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  margin-bottom: 10px;
+.section-playlist-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  margin: 8px 0;
 }
-.biblioteca_play p {
-  font-family: "DM Sans", sans-serif;
-  font-size: 0.875rem;
-  margin-bottom: 10px;
-  color: var(--cor-text);
-  margin-bottom: 20px;
-}
-.biblioteca_play a {
-  display: inline-block;
+
+.section-playlist-button {
+  border-radius: 15px;
+  display: flex;
   padding: 10px 16px;
-  background: var(--cor-text);
-  color: var(--cor-background-sider);
-  border-radius: 20px;
-  font-family: "DM Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.875rem;
-  margin-top: 16px;
+  margin: 10px 0;
 }
-.biblioteca_play a:hover {
-  color: var(--cor-backgroud);
+.cookies {
+  margin: 25px 20px;
+}
+.languages {
+  margin: 20px 0;
+}
+.languages button {
+  display: flex;
+  align-items: center;
+  background: var(--cor-background-sider);
+  border: 1px solid #878787;
+  border-radius: 15px;
+  margin: 8px;
+}
+.languages span {
+  display: inline-block;
+  padding: 8px 10px;
+  cursor: pointer;
+  align-items: center;
 }

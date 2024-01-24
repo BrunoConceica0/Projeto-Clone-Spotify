@@ -29,9 +29,6 @@
 }
 .sidebar_navigation a {
   color: var(--cor-text-span);
-  font-family: "DM Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.875rem;
   display: flex;
   align-items: center;
 }

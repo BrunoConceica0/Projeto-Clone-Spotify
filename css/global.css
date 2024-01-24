@@ -3,6 +3,7 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
+  border: none;
 }
 body {
   background: var(--cor-backgroud);
