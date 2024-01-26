@@ -6,9 +6,20 @@
   --cor-text-span-active: #f5f5f5;
   --cor-titulo: #fff;
   --cor-text: #e7e7e7;
+  --cor-leniar-1: #8b1169;
+  --cor-leniar-2: #306dbc;
+  --cor-button: #bebeb9;
+  --cor-icon: #131313;
+  --cor-arraw-color: rgba(0, 0, 0, 0.7);
+}
+.cor-bt {
+  background: var(--cor-button);
 }
 .cor-2 {
   color: #949494;
+}
+.cor-3 {
+  color: #a7a7a7;
 }
 .cor-1 {
   color: #fff;

@@ -1,0 +1,10 @@
+.copy-rigth {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  background: linear-gradient(45deg, var(--cor-leniar-1), var(--cor-leniar-2));
+  padding: 16px 20px;
+  /* top: 80vh; */
+}

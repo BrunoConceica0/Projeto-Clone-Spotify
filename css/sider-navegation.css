@@ -5,6 +5,7 @@
   bottom: 0;
   padding: 12px;
   width: 300px;
+  height: 80vh;
 }
 .sidebar_navigation {
   background: var(--cor-background-sider);
