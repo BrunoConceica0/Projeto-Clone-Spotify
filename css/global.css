@@ -8,3 +8,8 @@
 body {
   background: var(--cor-backgroud);
 }
+img[src$=".jpeg"] {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}

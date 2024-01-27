@@ -1,0 +1,14 @@
+.introduction {
+  max-width: 80vw;
+  height: 80vh;
+  margin-left: 320px;
+  margin-right: 56px;
+}
+.introduction-container {
+  padding: 16px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.introduction-container h1 {
+  margin-bottom: 40px;
+}

@@ -12,6 +12,9 @@
   --cor-icon: #131313;
   --cor-arraw-color: rgba(0, 0, 0, 0.7);
 }
+.color-bg-2 {
+  background: var(--cor-background-sider);
+}
 .cor-bt {
   background: var(--cor-button);
 }
